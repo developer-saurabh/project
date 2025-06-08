@@ -42,6 +42,8 @@ dependencies:
   lucide_icons: ^0.257.0
   path: ^1.9.1
   sqflite: ^2.4.2
+  sembast: ^3.8.5+1
+  sembast_web: ^2.4.1
 
 dev_dependencies:
   flutter_test:
@@ -70,6 +72,7 @@ flutter:
      - assets/fixed_form_responses_clean.json
      - assets/coursea_data.json
      - assets/data.json
+     - assets/data1.json
      - assets/image.jpg
   #   - images/a_dot_ham.jpeg
 

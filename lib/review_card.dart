@@ -29,7 +29,22 @@ class GFormReviewCard extends StatelessWidget {
               ],
             ),
             SizedBox(height: 6),
-            Text(review.email, style: TextStyle(color: Colors.grey[700])),
+            InkWell(
+              onTap: () async {
+                final emailUri = Uri(scheme: 'mailto', path: review.email);
+                if (await canLaunchUrl(emailUri)) {
+                  await launchUrl(emailUri);
+                }
+              },
+              child: Text(
+                review.email,
+                style: TextStyle(
+                  color: Colors.blue,
+                  decoration: TextDecoration.underline,
+                ),
+              ),
+            ),
+
             SizedBox(height: 10),
             Chip(
               label: Text(review.course, style: TextStyle(color: Colors.white)),
@@ -50,19 +65,35 @@ class GFormReviewCard extends StatelessWidget {
                     (index) => Icon(Icons.star, color: Colors.amber, size: 20),
                   ),
                 ),
-                ElevatedButton.icon(
-                  onPressed: () => launchUrl(Uri.parse(review.certificateUrl)),
-                  icon: Icon(Icons.open_in_new),
-                  label: Text(
-                    "View Certificate",
-                    style: TextStyle(
-                      color: Colors.white,
-                    ), // Set the text color to white
-                  ),
-                  style: ElevatedButton.styleFrom(
-                    backgroundColor:
-                        Colors.indigo, // Background color of the button
-                  ),
+                Row(
+                  children: [
+                    ElevatedButton.icon(
+                      onPressed:
+                          () => launchUrl(Uri.parse(review.certificateUrl)),
+                      icon: Icon(Icons.open_in_new),
+                      label: Text(
+                        "View Certificate",
+                        style: TextStyle(color: Colors.white),
+                      ),
+                      style: ElevatedButton.styleFrom(
+                        backgroundColor: Colors.indigo,
+                      ),
+                    ),
+                    SizedBox(width: 8),
+                    if (review.coursesLink.isNotEmpty)
+                      ElevatedButton.icon(
+                        onPressed:
+                            () => launchUrl(Uri.parse(review.coursesLink)),
+                        icon: Icon(Icons.link),
+                        label: Text(
+                          "View Course",
+                          style: TextStyle(color: Colors.white),
+                        ),
+                        style: ElevatedButton.styleFrom(
+                          backgroundColor: Colors.teal,
+                        ),
+                      ),
+                  ],
                 ),
               ],
             ),

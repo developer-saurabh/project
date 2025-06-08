@@ -5,6 +5,7 @@ class UploadedCourse {
   final String difficulty;
   final double rating;
   final String courseLink;
+  final String review;
 
   UploadedCourse({
     this.id,
@@ -13,6 +14,7 @@ class UploadedCourse {
     required this.difficulty,
     required this.rating,
     required this.courseLink,
+    required this.review,
   });
 
   Map<String, dynamic> toMap() {
@@ -23,6 +25,7 @@ class UploadedCourse {
       'difficulty': difficulty,
       'rating': rating,
       'courseLink': courseLink,
+      'review': review,
     };
   }
 
@@ -34,6 +37,7 @@ class UploadedCourse {
       difficulty: map['difficulty'],
       rating: map['rating'],
       courseLink: map['courseLink'],
+      review: map['review'],
     );
   }
 }

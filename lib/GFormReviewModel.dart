@@ -5,6 +5,7 @@ class GFormReviewModel {
   final String course;
   final String feedback;
   final String certificateUrl;
+  final String coursesLink;
 
   GFormReviewModel({
     required this.timestamp,
@@ -13,6 +14,7 @@ class GFormReviewModel {
     required this.course,
     required this.feedback,
     required this.certificateUrl,
+    required this.coursesLink,
   });
 
   factory GFormReviewModel.fromJson(Map<String, dynamic> json) {
@@ -23,6 +25,7 @@ class GFormReviewModel {
       course: json['Course/Internship'] ?? '',
       feedback: json['Review/Feedback'] ?? '',
       certificateUrl: json['Certificate URL'] ?? '',
+      coursesLink: json['Courses Link'] ?? '',
     );
   }
 }

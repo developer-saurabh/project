@@ -5,6 +5,8 @@ import 'package:project/CourseaReviewModel.dart';
 import 'package:project/GFormReviewModel.dart';
 import 'package:project/coursea_review_card.dart';
 import 'package:project/review_card.dart' show GFormReviewCard;
+import 'package:project/uploaded_course.dart';
+import 'package:project/UploadedCourseStore.dart';
 import 'package:shimmer/shimmer.dart';
 
 class ReviewScreen extends StatefulWidget {
@@ -17,8 +19,12 @@ class ReviewScreen extends StatefulWidget {
 class _ReviewScreenState extends State<ReviewScreen> {
   List<GFormReviewModel> _gformReviews = [];
   List<CourseraReviewModel> _courseaReviews = [];
+  List<UploadedCourse> _uploadedCourses = [];
+
   List<GFormReviewModel> _gformResults = [];
   List<CourseraReviewModel> _courseaResults = [];
+  List<UploadedCourse> _uploadedResults = [];
+
   bool _isLoadingMore = false;
 
   @override
@@ -28,10 +34,9 @@ class _ReviewScreenState extends State<ReviewScreen> {
   }
 
   Future<void> loadData() async {
-    final gformData = await rootBundle.loadString(
-      'assets/fixed_form_responses_clean.json',
-    );
+    final gformData = await rootBundle.loadString('assets/data1.json');
     final courseaData = await rootBundle.loadString('assets/coursea_data.json');
+    final uploadedData = await UploadedCourseStore.getCourses();
 
     setState(() {
       _gformReviews =
@@ -43,6 +48,8 @@ class _ReviewScreenState extends State<ReviewScreen> {
           (json.decode(courseaData) as List)
               .map((e) => CourseraReviewModel.fromJson(e))
               .toList();
+
+      _uploadedCourses = uploadedData;
     });
   }
 
@@ -55,14 +62,21 @@ class _ReviewScreenState extends State<ReviewScreen> {
               e.course.toLowerCase().contains(lowerQuery);
         }).toList();
 
+    final uploadedMatches =
+        _uploadedCourses.where((e) {
+          return e.name.toLowerCase().contains(lowerQuery) ||
+              e.organization.toLowerCase().contains(lowerQuery) ||
+              e.review.toLowerCase().contains(lowerQuery);
+        }).toList();
+
     setState(() {
       _gformResults = gformMatches;
+      _uploadedResults = uploadedMatches;
       _courseaResults = [];
       _isLoadingMore = true;
     });
 
-    // Simulate few-shot delay
-    await Future.delayed(Duration(seconds: 3));
+    await Future.delayed(Duration(seconds: 2));
 
     final courseaMatches =
         _courseaReviews.where((e) {
@@ -111,6 +125,43 @@ class _ReviewScreenState extends State<ReviewScreen> {
     );
   }
 
+  Widget _buildUploadedCourseCard(UploadedCourse course) {
+    return Card(
+      margin: EdgeInsets.symmetric(horizontal: 12, vertical: 8),
+      elevation: 3,
+      child: Padding(
+        padding: const EdgeInsets.all(12),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Text(
+              course.name,
+              style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
+            ),
+            SizedBox(height: 4),
+            Text(
+              "${course.organization} • ${course.difficulty}",
+              style: TextStyle(color: Colors.grey[700]),
+            ),
+            SizedBox(height: 6),
+            Text(course.review),
+            SizedBox(height: 8),
+            Align(
+              alignment: Alignment.bottomRight,
+              child: Text(
+                "⭐ ${course.rating.toStringAsFixed(1)}",
+                style: TextStyle(
+                  color: Colors.amber[800],
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -134,6 +185,7 @@ class _ReviewScreenState extends State<ReviewScreen> {
           Expanded(
             child: ListView(
               children: [
+                ..._uploadedResults.map(_buildUploadedCourseCard).toList(),
                 ..._gformResults
                     .map((e) => GFormReviewCard(review: e))
                     .toList(),
