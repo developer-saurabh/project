@@ -1,0 +1,842 @@
+[
+  {
+    "course_Organization": "Deeplearning.ai",
+    "course_Certificate_type": "SPECIFICATION",
+    "course_rating": 4.3,
+    "course_difficulty": "Beginner",
+    "course_students_enrolled": "2.6k",
+    "link": "https://www.coursera.org/professional-certificates"
+  },
+  {
+    "course_Organization": "Deeplearning.ai",
+    "course_Certificate_type": "SPECIFICATION",
+    "course_rating": 4.5,
+    "course_difficulty": "Intermediate",
+    "course_students_enrolled": "51k",
+    "link": "https://www.coursera.org/professional-certificates"
+  },
+  {
+    "course_Organization": "Blockchain Security",
+    "course_Certificate_type": "COURSE",
+    "course_rating": 4.6,
+    "course_difficulty": "Mixed",
+    "course_students_enrolled": "7.6k",
+    "link": "https://www.coursera.org/specializations/blockchain"
+  },
+  {
+    "course_Organization": "Blockchain Security",
+    "course_Certificate_type": "COURSE",
+    "course_rating": 4.7,
+    "course_difficulty": "Mixed",
+    "course_students_enrolled": "85k",
+    "link": "https://www.coursera.org/learn/blockchain-security"
+  },
+  {
+    "course_Organization": "Amazon Web Services",
+    "course_Certificate_type": "SPECIFICATION",
+    "course_rating": 4.6,
+    "course_difficulty": "Beginner",
+    "course_students_enrolled": "330k",
+    "link": "https://aws.amazon.com/certification/"
+  },
+  {
+    "course_Organization": "Amazon Web Services",
+    "course_Certificate_type": "COURSE",
+    "course_rating": 4,
+    "course_difficulty": "Intermediate",
+    "course_students_enrolled": "6.2k",
+    "link": "https://www.coursera.org/courses?query=aws"
+  },
+  {
+    "course_Organization": "IBM",
+    "course_Certificate_type": "COURSE",
+    "course_rating": 4.4,
+    "course_difficulty": "Intermediate",
+    "course_students_enrolled": "63k",
+    "link": "https://www.ibm.com/training"
+  },
+  {
+    "course_Organization": "Data Analytics",
+    "course_Certificate_type": "COURSE",
+    "course_rating": 4.5,
+    "course_difficulty": "Beginner",
+    "course_students_enrolled": "96k",
+    "link": "https://www.coursera.org/professional-certificates"
+  },
+  {
+    "course_Organization": "Data Science",
+    "course_Certificate_type": "COURSE",
+    "course_rating": 4.7,
+    "course_difficulty": "Beginner",
+    "course_students_enrolled": "91k",
+    "link": "https://www.coursera.org/professional-certificates"
+  },
+  {
+    "course_Organization": "Machine Learning",
+    "course_Certificate_type": "SPECIFICATION",
+    "course_rating": 4.6,
+    "course_difficulty": "Beginner",
+    "course_students_enrolled": "72k",
+    "link": "https://www.coursera.org/professional-certificates"
+  },
+  {
+    "course_Organization": "Introduction to Generative AI",
+    "course_Certificate_type": "SPECIFICATION",
+    "course_rating": 4.7,
+    "course_difficulty": "Intermediate",
+    "course_students_enrolled": "10.5k",
+    "link": "https://www.coursera.org/professional-certificates"
+  },
+  {
+    "course_Organization": "Python for Data Analytics",
+    "course_Certificate_type": "SPECIFICATION",
+    "course_rating": 4.8,
+    "course_difficulty": "Beginner",
+    "course_students_enrolled": "33k",
+    "link": "https://www.coursera.org/professional-certificates"
+  },
+  {
+    "course_Organization": "UX Design",
+    "course_Certificate_type": "COURSE",
+    "course_rating": 4.5,
+    "course_difficulty": "Beginner",
+    "course_students_enrolled": "7k",
+    "link": "https://www.coursera.org/professional-certificates"
+  },
+  {
+    "course_Organization": "Natural language Processing",
+    "course_Certificate_type": "SPECIFICATION",
+    "course_rating": 4.6,
+    "course_difficulty": "Beginner",
+    "course_students_enrolled": "27k",
+    "link": "https://www.coursera.org/professional-certificates"
+  },
+  {
+    "course_Organization": "Data Engineer",
+    "course_Certificate_type": "COURSE",
+    "course_rating": 4.8,
+    "course_difficulty": "Beginner",
+    "course_students_enrolled": "30k",
+    "link": "https://www.coursera.org/professional-certificates"
+  },
+  {
+    "course_Organization": "Adobe Graphic Designer",
+    "course_Certificate_type": "COURSE",
+    "course_rating": 4.7,
+    "course_difficulty": "Beginner",
+    "course_students_enrolled": "6.6k",
+    "link": "https://www.coursera.org/professional-certificates"
+  },
+  {
+    "course_Organization": "Google Project Management",
+    "course_Certificate_type": "COURSE",
+    "course_rating": 4.8,
+    "course_difficulty": "Beginner",
+    "course_students_enrolled": "43k",
+    "link": "https://www.coursera.org/professional-certificates"
+  },
+  {
+    "course_Organization": "C and C++",
+    "course_Certificate_type": "SPECIFICATION",
+    "course_rating": 4.6,
+    "course_difficulty": "Mixed",
+    "course_students_enrolled": "77k",
+    "link": "https://www.coursera.org/specializations/coding-for-everyone"
+  },
+  {
+    "course_Organization": "Python 3",
+    "course_Certificate_type": "SPECIFICATION",
+    "course_rating": 4.2,
+    "course_difficulty": "Intermediate",
+    "course_students_enrolled": "11.8k",
+    "link": "https://www.coursera.org/specializations/python-3-programming"
+  },
+  {
+    "course_Organization": "Java Programming and Software Engineering Fundamentals",
+    "course_Certificate_type": "SPECIFICATION",
+    "course_rating": 4.3,
+    "course_difficulty": "Intermediate",
+    "course_students_enrolled": "98k",
+    "link": "https://www.coursera.org/specializations/java-programming"
+  },
+  {
+    "course_Organization": "Microsoft Full-Stack Developer",
+    "course_Certificate_type": "COURSE",
+    "course_rating": 4.7,
+    "course_difficulty": "Intermediate",
+    "course_students_enrolled": "92k",
+    "link": "https://www.coursera.org/professional-certificates/microsoft-full-stack-developer"
+  },
+  {
+    "course_Organization": "Full-Stack Developer",
+    "course_Certificate_type": "COURSE",
+    "course_rating": 4.4,
+    "course_difficulty": "Intermediate",
+    "course_students_enrolled": "9.3k",
+    "link": "https://www.coursera.org/professional-certificates/ibm-full-stack-cloud-developer"
+  },
+  {
+    "course_Organization": "Excel for Data Analysis",
+    "course_Certificate_type": "SPECIFICATION",
+    "course_rating": 4,
+    "course_difficulty": "Intermediate",
+    "course_students_enrolled": "47k",
+    "link": "https://www.coursera.org/learn/excel-basics-data-analysis-ibm"
+  },
+  {
+    "course_Organization": "Frontend Developer",
+    "course_Certificate_type": "COURSE",
+    "course_rating": 4.2,
+    "course_difficulty": "Intermediate",
+    "course_students_enrolled": "105k",
+    "link": "https://www.coursera.org/professional-certificates/meta-front-end-developer"
+  },
+  {
+    "course_Organization": "PHP Programming with SQL",
+    "course_Certificate_type": "COURSE",
+    "course_rating": 4.1,
+    "course_difficulty": "Beginner",
+    "course_students_enrolled": "122k",
+    "link": "https://www.udemy.com/course/php-bootcamp-the-complete-programming-course-with-mysql/"
+  },
+  {
+    "course_Organization": "Python Programming",
+    "course_Certificate_type": "SPECIFICATION",
+    "course_rating": 4.6,
+    "course_difficulty": "Intermediate",
+    "course_students_enrolled": "119k",
+    "link": "https://www.udemy.com/course/python-programming-a-step-by-step-programming-course/"
+  },
+  {
+    "course_Organization": "Java Programming ",
+    "course_Certificate_type": "SPECIFICATION",
+    "course_rating": 4.7,
+    "course_difficulty": "Beginner",
+    "course_students_enrolled": "90k",
+    "link": "https://www.udemy.com/course/complete-java-programming-bootcamp-learn-to-code-in-java/"
+  },
+  {
+    "course_Organization": "Python Programming for Begginers",
+    "course_Certificate_type": "SPECIFICATION",
+    "course_rating": 4.8,
+    "course_difficulty": "Beginner",
+    "course_students_enrolled": "5.6k",
+    "link": "https://www.udemy.com/course/python-programming-for-beginners-learn-python-from-scratch/"
+  },
+  {
+    "course_Organization": "Numpy Programming mastery Learn Python",
+    "course_Certificate_type": "SPECIFICATION",
+    "course_rating": 4.6,
+    "course_difficulty": "Beginner",
+    "course_students_enrolled": "62k",
+    "link": "https://www.udemy.com/course/numpy-programming-mastery-learn-python-for-data-analysis/"
+  },
+  {
+    "course_Organization": "Javascript Programming",
+    "course_Certificate_type": "SPECIFICATION",
+    "course_rating": 4.6,
+    "course_difficulty": "Beginner",
+    "course_students_enrolled": "70k",
+    "link": "https://www.udemy.com/course/complete-javascript-programming-from-novice-to-expert/"
+  },
+  {
+    "course_Organization": "Microsoft Power bi",
+    "course_Certificate_type": "SPECIFICATION",
+    "course_rating": 4.7,
+    "course_difficulty": "Beginner",
+    "course_students_enrolled": "11.2k",
+    "link": "https://www.coursera.org/professional-certificates/microsoft-power-bi-data-analyst"
+  },
+  {
+    "course_Organization": "Microsoft Business Analyst",
+    "course_Certificate_type": "SPECIFICATION",
+    "course_rating": 4.9,
+    "course_difficulty": "Beginner",
+    "course_students_enrolled": "9.2k",
+    "link": "https://www.coursera.org/professional-certificates/microsoft-business-analyst"
+  },
+  {
+    "course_Organization": "Advanced Microsoft Power bi",
+    "course_Certificate_type": "SPECIFICATION",
+    "course_rating": 4.6,
+    "course_difficulty": "Intermediate",
+    "course_students_enrolled": "93k",
+    "link": "https://www.coursera.org/learn/advanced-microsoft-power-bi"
+  },
+  {
+    "course_Organization": "Excel to Power bi",
+    "course_Certificate_type": "SPECIFICATION",
+    "course_rating": 4.7,
+    "course_difficulty": "Mixed",
+    "course_students_enrolled": "97k",
+    "link": "https://www.coursera.org/learn/from-excel-to-power-bi"
+  },
+  {
+    "course_Organization": "Data Analysis Project using SQL,Power bi,Excel",
+    "course_Certificate_type": "COURSE",
+    "course_rating": 4.6,
+    "course_difficulty": "Mixed",
+    "course_students_enrolled": "100k",
+    "link": "https://www.udemy.com/course/data-analysis-projects-using-sql-power-bi-tableau-excel/"
+  },
+  {
+    "course_Organization": "Microsoft Power bi",
+    "course_Certificate_type": "SPECIFICATION",
+    "course_rating": 4.5,
+    "course_difficulty": "Intermediate",
+    "course_students_enrolled": "95k",
+    "link": "https://www.udemy.com/course/microsoft-power-bi-course/"
+  },
+  {
+    "course_Organization": "Introduction for querying database",
+    "course_Certificate_type": "SPECIFICATION",
+    "course_rating": 4.8,
+    "course_difficulty": "Beginner",
+    "course_students_enrolled": "4.6k",
+    "link": "https://www.coursera.org/learn/sql-practical-introduction-for-querying-databases"
+  },
+  {
+    "course_Organization": "SQL for Data Science",
+    "course_Certificate_type": "SPECIFICATION",
+    "course_rating": 4.2,
+    "course_difficulty": "Beginner",
+    "course_students_enrolled": "37k",
+    "link": "https://www.coursera.org/learn/sql-for-data-science"
+  },
+  {
+    "course_Organization": "Oracle sql database",
+    "course_Certificate_type": "SPECIFICATION",
+    "course_rating": 4.3,
+    "course_difficulty": "Beginner",
+    "course_students_enrolled": "68k",
+    "link": "https://www.coursera.org/specializations/oracle-sql-databases"
+  },
+  {
+    "course_Organization": "Full-Stack Web Development",
+    "course_Certificate_type": "COURSE",
+    "course_rating": 4.5,
+    "course_difficulty": "Intermediate",
+    "course_students_enrolled": "6.7k",
+    "link": "https://www.udemy.com/course/full-stack-web-development-megacourse-beginner-to-expert/"
+  },
+  {
+    "course_Organization": "SQL ",
+    "course_Certificate_type": "SPECIFICATION",
+    "course_rating": 4.6,
+    "course_difficulty": "Intermediate",
+    "course_students_enrolled": "73k",
+    "link": "https://www.udemy.com/course/sql-the-complete-introduction-to-sql-programming/"
+  },
+  {
+    "course_Organization": "Data Analysis using microsoft Power bi",
+    "course_Certificate_type": "SPECIFICATION",
+    "course_rating": 4.7,
+    "course_difficulty": "Intermediate",
+    "course_students_enrolled": "2k",
+    "link": "https://www.udemy.com/course/business-data-analysis-using-microsoft-power-bi/"
+  },
+  {
+    "course_Organization": "Tableau",
+    "course_Certificate_type": "SPECIFICATION",
+    "course_rating": 4.8,
+    "course_difficulty": "Beginner",
+    "course_students_enrolled": "5k",
+    "link": "https://cp.certmetrics.com/tableau/en/"
+  },
+  {
+    "course_Organization": "Introduction to Tableau",
+    "course_Certificate_type": "SPECIFICATION",
+    "course_rating": 4.5,
+    "course_difficulty": "Beginner",
+    "course_students_enrolled": "7.8k",
+    "link": "https://www.coursera.org/learn/introduction-to-tableau"
+  },
+  {
+    "course_Organization": "Data visualization using Tableau",
+    "course_Certificate_type": "SPECIFICATION",
+    "course_rating": 4.8,
+    "course_difficulty": "Intermediate",
+    "course_students_enrolled": "98k",
+    "link": "https://www.coursera.org/learn/advanced-data-visualization-with-tableau-public"
+  },
+  {
+    "course_Organization": "R Programming",
+    "course_Certificate_type": "SPECIFICATION",
+    "course_rating": 4.7,
+    "course_difficulty": "Beginner",
+    "course_students_enrolled": "9.1k",
+    "link": "https://www.coursera.org/learn/r-programming"
+  },
+  {
+    "course_Organization": "Data Analysis with R",
+    "course_Certificate_type": "SPECIFICATION",
+    "course_rating": 4.6,
+    "course_difficulty": "Intermediate",
+    "course_students_enrolled": "100k",
+    "link": "https://www.coursera.org/learn/data-analysis-with-r"
+  },
+  {
+    "course_Organization": "Data Science",
+    "course_Certificate_type": "COURSE",
+    "course_rating": 4.3,
+    "course_difficulty": "Beginner",
+    "course_students_enrolled": "76k",
+    "link": "https://www.coursera.org/specializations/data-science-foundations-r"
+  },
+  {
+    "course_Organization": "Introduction to html,css and javascript",
+    "course_Certificate_type": "COURSE",
+    "course_rating": 4.5,
+    "course_difficulty": "Beginner",
+    "course_students_enrolled": "3k",
+    "link": "https://www.coursera.org/learn/introduction-html-css-javascript"
+  },
+  {
+    "course_Organization": "html and css in depth",
+    "course_Certificate_type": "COURSE",
+    "course_rating": 4.4,
+    "course_difficulty": "Mixed",
+    "course_students_enrolled": "6.1k",
+    "link": "https://www.coursera.org/learn/html-and-css-in-depth"
+  },
+  {
+    "course_Organization": "Javascript Programming",
+    "course_Certificate_type": "SPECIFICATION",
+    "course_rating": 4.3,
+    "course_difficulty": "Beginner",
+    "course_students_enrolled": "65k",
+    "link": "https://www.udemy.com/course/html-css-javascript-certification-course-for-beginners/"
+  },
+  {
+    "course_Organization": "HTML5",
+    "course_Certificate_type": "SPECIFICATION",
+    "course_rating": 4.6,
+    "course_difficulty": "Intermediate",
+    "course_students_enrolled": "65k",
+    "link": "https://www.udemy.com/course/html5-fundamentals-for-beginners/"
+  },
+  {
+    "course_Organization": "Frontend Engineer",
+    "course_Certificate_type": "COURSE",
+    "course_rating": 4.6,
+    "course_difficulty": "Beginner",
+    "course_students_enrolled": "65k",
+    "link": "https://www.codecademy.com/learn/paths/front-end-engineer-career-path"
+  },
+  {
+    "course_Organization": "HTML",
+    "course_Certificate_type": "SPECIFICATION",
+    "course_rating": 4.7,
+    "course_difficulty": "Beginner",
+    "course_students_enrolled": "1k",
+    "link": "https://www.codecademy.com/learn/learn-html"
+  },
+  {
+    "course_Organization": "Bootsrap",
+    "course_Certificate_type": "SPECIFICATION",
+    "course_rating": 4.8,
+    "course_difficulty": "Beginner",
+    "course_students_enrolled": "29k",
+    "link": "https://www.codecademy.com/learn/learn-bootstrap"
+  },
+  {
+    "course_Organization": "CSS in JS",
+    "course_Certificate_type": "SPECIFICATION",
+    "course_rating": 4.7,
+    "course_difficulty": "Beginner",
+    "course_students_enrolled": "27k",
+    "link": "https://www.codecademy.com/learn/learn-css-in-js"
+  },
+  {
+    "course_Organization": "c Programming",
+    "course_Certificate_type": "SPECIFICATION",
+    "course_rating": 4.6,
+    "course_difficulty": "Intermediate",
+    "course_students_enrolled": "2.9k",
+    "link": "https://www.coursera.org/specializations/c-programming"
+  },
+  {
+    "course_Organization": "Dartmouth c programming with linux",
+    "course_Certificate_type": "COURSE",
+    "course_rating": 4.6,
+    "course_difficulty": "Intermediate",
+    "course_students_enrolled": "84k",
+    "link": "https://www.edx.org/certificates/professional-certificate/dartmouth-imtx-c-programming-with-linux"
+  },
+  {
+    "course_Organization": "Harvardx Computer Science for web programming",
+    "course_Certificate_type": "COURSE",
+    "course_rating": 4.6,
+    "course_difficulty": "Intermediate",
+    "course_students_enrolled": "38k",
+    "link": "https://www.edx.org/certificates/professional-certificate/harvardx-computer-science-for-web-programming"
+  },
+  {
+    "course_Organization": "IBM c programming",
+    "course_Certificate_type": "SPECIFICATION",
+    "course_rating": 4.7,
+    "course_difficulty": "Intermediate",
+    "course_students_enrolled": "9k",
+    "link": "https://www.edx.org/certificates/professional-certificate/ibm-c-programming-essentials"
+  },
+  {
+    "course_Organization": "C++ Programming",
+    "course_Certificate_type": "SPECIFICATION",
+    "course_rating": 4.6,
+    "course_difficulty": "Intermediate",
+    "course_students_enrolled": "7.5k",
+    "link": "https://www.codecademy.com/learn/learn-c-plus-plus"
+  },
+  {
+    "course_Organization": "Full stack web development course project base",
+    "course_Certificate_type": "COURSE",
+    "course_rating": 4.8,
+    "course_difficulty": "Beginner",
+    "course_students_enrolled": "77k",
+    "link": "https://www.udemy.com/course/fullstack-web-development-course-projects-base/"
+  },
+  {
+    "course_Organization": "Full Stack java Development with Springboot",
+    "course_Certificate_type": "COURSE",
+    "course_rating": 4.8,
+    "course_difficulty": "Intermediate",
+    "course_students_enrolled": "4.6k",
+    "link": "https://www.udemy.com/course/full-stack-java-development-with-spring-boot-react/"
+  },
+  {
+    "course_Organization": "Basic React",
+    "course_Certificate_type": "SPECIFICATION",
+    "course_rating": 4.5,
+    "course_difficulty": "Beginner",
+    "course_students_enrolled": "90k",
+    "link": "https://www.coursera.org/learn/react-basics"
+  },
+  {
+    "course_Organization": "Advanced React",
+    "course_Certificate_type": "SPECIFICATION",
+    "course_rating": 4.8,
+    "course_difficulty": "Intermediate",
+    "course_students_enrolled": "80k",
+    "link": "https://www.coursera.org/learn/advanced-react"
+  },
+  {
+    "course_Organization": "IBM Java fullstack javascript",
+    "course_Certificate_type": "COURSE",
+    "course_rating": 4.7,
+    "course_difficulty": "Beginner",
+    "course_students_enrolled": "10.6k",
+    "link": "https://www.coursera.org/professional-certificates/ibm-full-stack-javascript-developer"
+  },
+  {
+    "course_Organization": "react -js",
+    "course_Certificate_type": "SPECIFICATION",
+    "course_rating": 4.8,
+    "course_difficulty": "Beginner",
+    "course_students_enrolled": "94k",
+    "link": "https://www.mygreatlearning.com/academy/learn-for-free/courses/react-js-tutorial"
+  },
+  {
+    "course_Organization": "Spring and Spring boot",
+    "course_Certificate_type": "SPECIFICATION",
+    "course_rating": 4.6,
+    "course_difficulty": "Beginner",
+    "course_students_enrolled": "55k",
+    "link": "https://smartprogramming.in/spring-and-spring-boot-course"
+  },
+  {
+    "course_Organization": "Cloud Computing",
+    "course_Certificate_type": "SPECIFICATION",
+    "course_rating": 4.7,
+    "course_difficulty": "Intermediate",
+    "course_students_enrolled": "23k",
+    "link": "https://www.mygreatlearning.com/cloud-computing/free-courses"
+  },
+  {
+    "course_Organization": "Cloud Computing",
+    "course_Certificate_type": "SPECIFICATION",
+    "course_rating": 4.7,
+    "course_difficulty": "Intermediate",
+    "course_students_enrolled": "70k",
+    "link": "https://cloud.google.com/learn/training"
+  },
+  {
+    "course_Organization": "Artificial Intilligence",
+    "course_Certificate_type": "SPECIFICATION",
+    "course_rating": 4.6,
+    "course_difficulty": "Intermediate",
+    "course_students_enrolled": "116k",
+    "link": "https://www.coursera.org/courses?query=artificial%20intelligence"
+  },
+  {
+    "course_Organization": "Artificial Intilligence",
+    "course_Certificate_type": "SPECIFICATION",
+    "course_rating": 4.5,
+    "course_difficulty": "Beginner",
+    "course_students_enrolled": "82k",
+    "link": "https://www.mygreatlearning.com/ai/free-courses"
+  },
+  {
+    "course_Organization": "Artificial Intilligence",
+    "course_Certificate_type": "SPECIFICATION",
+    "course_rating": 4.7,
+    "course_difficulty": "Beginner",
+    "course_students_enrolled": "80k",
+    "link": "https://www.edx.org/learn/artificial-intelligence"
+  },
+  {
+    "course_Organization": "Artificial Intilligence",
+    "course_Certificate_type": "SPECIFICATION",
+    "course_rating": 4.8,
+    "course_difficulty": "Mixed",
+    "course_students_enrolled": "34k",
+    "link": "https://skillsbuild.org/students/course-catalog/artificial-intelligence"
+  },
+  {
+    "course_Organization": "Machine Learning",
+    "course_Certificate_type": "SPECIFICATION",
+    "course_rating": 4.8,
+    "course_difficulty": "Mixed",
+    "course_students_enrolled": "6k",
+    "link": "https://www.mygreatlearning.com/machine-learning/free-courses"
+  },
+  {
+    "course_Organization": "Machine Learning",
+    "course_Certificate_type": "SPECIFICATION",
+    "course_rating": 4.7,
+    "course_difficulty": "Mixed",
+    "course_students_enrolled": "5.2k",
+    "link": "https://pll.harvard.edu/course/data-science-machine-learning"
+  },
+  {
+    "course_Organization": "Machine Learning",
+    "course_Certificate_type": "SPECIFICATION",
+    "course_rating": 4.6,
+    "course_difficulty": "Mixed",
+    "course_students_enrolled": "32k",
+    "link": "https://cloud.google.com/learn/training/machinelearning-ai"
+  },
+  {
+    "course_Organization": "Machine Learning",
+    "course_Certificate_type": "SPECIFICATION",
+    "course_rating": 4.5,
+    "course_difficulty": "Mixed",
+    "course_students_enrolled": "10.9k",
+    "link": "https://www.coursera.org/professional-certificates/ibm-machine-learning"
+  },
+  {
+    "course_Organization": "Machine Learning",
+    "course_Certificate_type": "SPECIFICATION",
+    "course_rating": 4.6,
+    "course_difficulty": "Mixed",
+    "course_students_enrolled": "8k",
+    "link": "https://professional.mit.edu/course-catalog/professional-certificate-program-machine-learning-artificial-intelligence-0"
+  },
+  {
+    "course_Organization": "Machine Learning",
+    "course_Certificate_type": "SPECIFICATION",
+    "course_rating": 4.6,
+    "course_difficulty": "Mixed",
+    "course_students_enrolled": "8.9k",
+    "link": "https://www.simplilearn.com/learn-machine-learning-basics-skillup"
+  },
+  {
+    "course_Organization": "Cyber Security",
+    "course_Certificate_type": "SPECIFICATION",
+    "course_rating": 4.9,
+    "course_difficulty": "Mixed",
+    "course_students_enrolled": "19k",
+    "link": "https://www.coursera.org/professional-certificates/google-cybersecurity"
+  },
+  {
+    "course_Organization": "Cyber Security",
+    "course_Certificate_type": "SPECIFICATION",
+    "course_rating": 4,
+    "course_difficulty": "Mixed",
+    "course_students_enrolled": "54k",
+    "link": "https://www.coursera.org/professional-certificates/ibm-cybersecurity-analyst"
+  },
+  {
+    "course_Organization": "Cyber Security",
+    "course_Certificate_type": "SPECIFICATION",
+    "course_rating": 4,
+    "course_difficulty": "Mixed",
+    "course_students_enrolled": "8k",
+    "link": "https://www.coursera.org/professional-certificates/microsoft-cybersecurity-analyst"
+  },
+  {
+    "course_Organization": "Cyber Security",
+    "course_Certificate_type": "SPECIFICATION",
+    "course_rating": 4.7,
+    "course_difficulty": "Mixed",
+    "course_students_enrolled": "9.1k",
+    "link": "https://www.simplilearn.com/cyber-security"
+  },
+  {
+    "course_Organization": "Cyber Security",
+    "course_Certificate_type": "SPECIFICATION",
+    "course_rating": 4.3,
+    "course_difficulty": "Mixed",
+    "course_students_enrolled": "93k",
+    "link": "https://www.udemy.com/course/2021-beginners-guide-to-cyber-security/"
+  },
+  {
+    "course_Organization": "Cyber Security",
+    "course_Certificate_type": "SPECIFICATION",
+    "course_rating": 4.2,
+    "course_difficulty": "Mixed",
+    "course_students_enrolled": "9k",
+    "link": "https://www.mygreatlearning.com/cybersecurity/free-courses"
+  },
+  {
+    "course_Organization": "Java Programming",
+    "course_Certificate_type": "SPECIFICATION",
+    "course_rating": 4.5,
+    "course_difficulty": "Mixed",
+    "course_students_enrolled": "29k",
+    "link": "https://www.w3schools.com/java/"
+  },
+  {
+    "course_Organization": "Python Programming",
+    "course_Certificate_type": "SPECIFICATION",
+    "course_rating": 4.5,
+    "course_difficulty": "Mixed",
+    "course_students_enrolled": "93k",
+    "link": "https://www.w3schools.com/python/"
+  },
+  {
+    "course_Organization": "Cloud-Computing Programming",
+    "course_Certificate_type": "SPECIFICATION",
+    "course_rating": 4.6,
+    "course_difficulty": "Mixed",
+    "course_students_enrolled": "8.1k",
+    "link": "https://www.geeksforgeeks.org/cloud-computing/"
+  },
+  {
+    "course_Organization": "Artificial-Intelligence Programming",
+    "course_Certificate_type": "SPECIFICATION",
+    "course_rating": 4.3,
+    "course_difficulty": "Mixed",
+    "course_students_enrolled": "95k",
+    "link": "https://www.geeksforgeeks.org/artificial-intelligence/"
+  },
+  {
+    "course_Organization": "Dbms Programming",
+    "course_Certificate_type": "SPECIFICATION",
+    "course_rating": 4.7,
+    "course_difficulty": "Beginner",
+    "course_students_enrolled": "10.6k",
+    "link": "https://www.geeksforgeeks.org/dbms/"
+  },
+  {
+    "course_Organization": "Notes for-Big-Data-Analytics ",
+    "course_Certificate_type": "NOTES",
+    "course_rating": 4.6,
+    "course_difficulty": "Intermediate",
+    "course_students_enrolled": "48k",
+    "link": "https://www.geeksforgeeks.org/what-is-big-data-analytics/"
+  },
+  {
+    "course_Organization": "Notes for Computer-Organization-And-Architecture-Tutorials ",
+    "course_Certificate_type": "NOTES",
+    "course_rating": 4.5,
+    "course_difficulty": "Intermediate",
+    "course_students_enrolled": "6k",
+    "link": "https://www.geeksforgeeks.org/computer-organization-and-architecture-tutorials/"
+  },
+  {
+    "course_Organization": "Notes for Deep-Learning-Tutorial ",
+    "course_Certificate_type": "NOTES",
+    "course_rating": 4.4,
+    "course_difficulty": "Intermediate",
+    "course_students_enrolled": "87k",
+    "link": "https://www.geeksforgeeks.org/deep-learning-tutorial/"
+  },
+  {
+    "course_Organization": "Notes for Machine-Learning ",
+    "course_Certificate_type": "NOTES",
+    "course_rating": 4.6,
+    "course_difficulty": "Intermediate",
+    "course_students_enrolled": "73k",
+    "link": "https://www.geeksforgeeks.org/machine-learning/"
+  },
+  {
+    "course_Organization": "Notes for Computer-Network-Tutorials",
+    "course_Certificate_type": "NOTES",
+    "course_rating": 4.5,
+    "course_difficulty": "Intermediate",
+    "course_students_enrolled": "11.4k",
+    "link": "https://www.geeksforgeeks.org/computer-network-tutorials/"
+  },
+  {
+    "course_Organization": "Notes for Data-Structures-And-Algorithms ",
+    "course_Certificate_type": "NOTES",
+    "course_rating": 4.7,
+    "course_difficulty": "Intermediate",
+    "course_students_enrolled": "9k",
+    "link": "https://www.geeksforgeeks.org/dsa-tutorial-learn-data-structures-and-algorithms/"
+  },
+  {
+    "course_Organization": "Notes for Data Structure",
+    "course_Certificate_type": "NOTES",
+    "course_rating": 4.6,
+    "course_difficulty": "Intermediate",
+    "course_students_enrolled": "74k",
+    "link": "https://www.coursera.org/courses?query=data%20structures%20and%20algorithms"
+  },
+  {
+    "course_Organization": "Professional-Certificate Programming for Data Structure and Algorithm",
+    "course_Certificate_type": "SPECIFICATION",
+    "course_rating": 4.6,
+    "course_difficulty": "Intermediate",
+    "course_students_enrolled": "9.4k",
+    "link": "https://www.edx.org/certificates/professional-certificate/gtx-data-structures-and-algorithms"
+  },
+  {
+    "course_Organization": "Introduction-To-Data-Structures Programming",
+    "course_Certificate_type": "SPECIFICATION",
+    "course_rating": 4.8,
+    "course_difficulty": "Intermediate",
+    "course_students_enrolled": "38k",
+    "link": "https://www.udemy.com/course/introduction-to-data-structures/"
+  },
+  {
+    "course_Organization": "Data structure Programming",
+    "course_Certificate_type": "SPECIFICATION",
+    "course_rating": 4.9,
+    "course_difficulty": "Intermediate",
+    "course_students_enrolled": "53k",
+    "link": "https://www.udemy.com/course/datastructurescncpp/"
+  },
+  {
+    "course_Organization": "Data-Structures-Algorithms-Python Programming",
+    "course_Certificate_type": "SPECIFICATION",
+    "course_rating": 4.8,
+    "course_difficulty": "Intermediate",
+    "course_students_enrolled": "29k",
+    "link": "https://www.udemy.com/course/data-structures-algorithms-python/"
+  },
+  {
+    "course_Organization": "Java-Data-Structures-And-Algorithms-Masterclass Programming",
+    "course_Certificate_type": "SPECIFICATION",
+    "course_rating": 4.6,
+    "course_difficulty": "Intermediate",
+    "course_students_enrolled": "8.4k",
+    "link": "https://www.udemy.com/course/java-data-structures-and-algorithms-masterclass/"
+  },
+  {
+    "course_Organization": "Courses Programming",
+    "course_Certificate_type": "COURSE",
+    "course_rating": 4.7,
+    "course_difficulty": "Intermediate",
+    "course_students_enrolled": "2.9k",
+    "link": "https://www.mygreatlearning.com/academy/learn-for-free/courses/data-structures-in-c"
+  },
+  {
+    "course_Organization": "Professional-Certificates Programming for Data Science",
+    "course_Certificate_type": "COURSE",
+    "course_rating": 4.9,
+    "course_difficulty": "Intermediate",
+    "course_students_enrolled": "52k",
+    "link": "https://www.coursera.org/professional-certificates/ibm-data-science"
+  }
+]
