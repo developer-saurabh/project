@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:project/uploaded_course.dart';
+import 'package:url_launcher/url_launcher.dart';
 import 'UploadedCourseStore.dart';
 import 'package:flutter/foundation.dart' show kIsWeb;
 
@@ -46,7 +47,8 @@ class _UploadPageState extends State<UploadPage> {
         organization: _organizationController.text,
         difficulty: _difficultyController.text,
         rating: double.parse(_ratingController.text),
-        courseLink: '',
+        courseLink: _difficultyController.text,
+
         review: _reviewController.text,
       );
 
@@ -92,7 +94,7 @@ class _UploadPageState extends State<UploadPage> {
                     children: [
                       _buildInput(_nameController, "Course Name"),
                       _buildInput(_organizationController, "Organization"),
-                      _buildInput(_difficultyController, "Difficulty"),
+                      _buildInput(_difficultyController, "Course Link"),
                       _buildInput(
                         _ratingController,
                         "Rating (e.g., 4.5)",
@@ -175,6 +177,44 @@ class _UploadPageState extends State<UploadPage> {
                                   c.review,
                                   style: TextStyle(color: Colors.black87),
                                 ),
+                                SizedBox(height: 8),
+
+                                if (c.courseLink.isNotEmpty)
+                                  Padding(
+                                    padding: const EdgeInsets.only(top: 8),
+                                    child: GestureDetector(
+                                      onTap: () async {
+                                        final uri = Uri.tryParse(c.courseLink);
+                                        if (uri != null &&
+                                            await canLaunchUrl(uri)) {
+                                          await launchUrl(
+                                            uri,
+                                            mode:
+                                                LaunchMode.externalApplication,
+                                          );
+                                        } else {
+                                          ScaffoldMessenger.of(
+                                            context,
+                                          ).showSnackBar(
+                                            SnackBar(
+                                              content: Text(
+                                                "Could not open the course link",
+                                              ),
+                                            ),
+                                          );
+                                        }
+                                      },
+                                      child: Text(
+                                        "Open Course Link",
+                                        style: TextStyle(
+                                          color: Colors.blue,
+                                          decoration: TextDecoration.underline,
+                                          fontWeight: FontWeight.w500,
+                                        ),
+                                      ),
+                                    ),
+                                  ),
+
                                 SizedBox(height: 8),
                                 Align(
                                   alignment: Alignment.bottomRight,

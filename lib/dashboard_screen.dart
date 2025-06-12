@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:project/about_page.dart';
 import 'package:project/review_screen.dart';
 import 'package:project/upload_page.dart';
 
@@ -33,8 +34,7 @@ class _AcademicDashboardState extends State<AcademicDashboard> {
     Center(child: Text('Search Page', style: TextStyle(fontSize: 18))),
     HomePage(),
     Center(child: Text('Upload Page', style: TextStyle(fontSize: 18))),
-    Center(child: Text('Notifications Page', style: TextStyle(fontSize: 18))),
-    Center(child: Text('About Page', style: TextStyle(fontSize: 18))),
+    AboutPage(), // ✅ Directly load AboutPage widget here
   ];
 
   @override
@@ -57,14 +57,9 @@ class _AcademicDashboardState extends State<AcademicDashboard> {
                         fontWeight: FontWeight.bold,
                       ),
                     ),
-                    // Text(
-                    //   "Research and Technology",
-                    //   style: TextStyle(fontSize: 16, color: Colors.white),
-                    // ),
                   ],
                 ),
                 actions: [
-                  IconButton(onPressed: () {}, icon: Icon(Icons.notifications)),
                   IconButton(onPressed: () {}, icon: Icon(Icons.more_vert)),
                 ],
               )
@@ -79,10 +74,6 @@ class _AcademicDashboardState extends State<AcademicDashboard> {
           BottomNavigationBarItem(icon: Icon(Icons.search), label: 'Search'),
           BottomNavigationBarItem(icon: Icon(Icons.home), label: 'Home'),
           BottomNavigationBarItem(icon: Icon(Icons.add), label: 'Upload'),
-          BottomNavigationBarItem(
-            icon: Icon(Icons.notifications),
-            label: 'Notify',
-          ),
           BottomNavigationBarItem(icon: Icon(Icons.info), label: 'About'),
         ],
       ),
