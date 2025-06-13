@@ -128,7 +128,7 @@ class _AcademicDashboardState extends State<AcademicDashboard> {
     Center(child: Text('Search Page', style: TextStyle(fontSize: 18))),
     HomePage(),
     Center(child: Text('Upload Page', style: TextStyle(fontSize: 18))),
-    Center(child: Text('Notifications Page', style: TextStyle(fontSize: 18))),
+    Center(child: Text('Notifications Pageg', style: TextStyle(fontSize: 18))),
     Center(child: Text('About Page', style: TextStyle(fontSize: 18))),
   ];
 
